@@ -21,10 +21,6 @@ function btnNext(){
     document.getElementById("display").innerHTML = (alphabet[i] + " for " + words[i]);
     myImage.setAttribute("src", imageArray[i])
 
-    if(i == 1){
-        document.getElementById("Previous-btn").style.display = "block"
-    }
-
     if(i == 26){
         i = 0
     }
@@ -38,8 +34,7 @@ function btnPrevious(){
     i--;
     document.getElementById("display").innerHTML = (alphabet[i] + " for " + words[i]);
     myImage.setAttribute("src", imageArray[i]);
-    document.getElementById("Next-btn").style.display = "block"
-
+    
     if(i < 0){
         i = 0
     }

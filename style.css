@@ -56,7 +56,6 @@ div button{
     background-color: red;
     color: white;
     border: none;
-    display: none;
 }
 
 #Previous-btn:hover{
@@ -216,7 +215,6 @@ div button{
             background-color: red;
             color: white;
             border: none;
-            display: none;
         }
         
         #Previous-btn:hover{
